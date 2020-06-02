@@ -1,0 +1,19 @@
+{
+  "name": "ts-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate files to start working on ts (can be used as a local sandbox)",
+  "scripts": {
+    "watch:project": "nodemon",
+    "fix:extension": "node toolForExtension.js",
+    "tsc:compile": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Yurii Husak",
+  "license": "MIT",
+  "devDependencies": {
+    "filehound": "^1.17.4",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
